@@ -1,0 +1,32 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.parte_izquierda{
+    background-image: url(./assets/footer_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.parte_derecha{
+    background-color: black;
+}
+
+.parte_izquierda .contenedor,
+.parte_derecha .contenedor{
+  margin: 100px auto;
+}
+
+@media screen and (min-width : 1200px){
+  .footer{
+    flex-direction: row;
+    
+  }
+  .parte_derecha{width: 50%;}
+  .parte_izquierda{
+    width: 50%;
+  }
+}

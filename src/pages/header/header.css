@@ -1,0 +1,55 @@
+
+.header{
+    background-image: url(assets/backgroundCafe.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  h1{
+    font-size : 45px;
+    font-weight : 600;
+  
+    line-height: 1.5em;
+    text-align: center;
+  }
+  
+  .header_p{
+  
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.9em;
+    font-weight: 500;
+    text-align: center;
+    width : 50%;
+    margin: 0px auto;
+  }
+  .header_image{
+    width: 30px;
+    height: auto;
+    margin-left : auto;
+     margin-right : auto;
+     margin-top : 250px;
+     display : block;
+     cursor: pointer;
+     transition: all .5s;
+  }
+
+  .header_image:hover{
+    width :40px;
+  }
+
+  @media screen and (min-width : 800px){
+    h1{
+      font-size: 70px;
+      margin: 10px;
+    }
+    p{
+      width: 100%;
+    }
+  }

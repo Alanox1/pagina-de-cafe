@@ -1,0 +1,33 @@
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    margin : 80px auto;
+   
+}
+.parte-izquierda{
+    width: 80%;
+    margin: 0px auto;
+}
+.parte-derecha img{
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+    .caracteristicas{
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .parte-izquierda{ 
+        width: 50%;
+        margin: 0px 80px;
+    }
+   .parte-derecha{
+        width: 50%;
+   } 
+   .parte-derecha img{
+    height: 90vh;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+   }
+  }

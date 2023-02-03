@@ -1,0 +1,31 @@
+.main{
+    background-image: url(./assets/coffee-item.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_div{
+  margin: 150px 0px;
+}
+.main_titulo{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #333;
+}
+.coffee_types_div{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width : 1200px){
+  .coffee_types_div{
+    flex-direction: row;
+  }
+  .main_div{
+    width: 70%;
+    margin: 150px auto;
+  }
+}
